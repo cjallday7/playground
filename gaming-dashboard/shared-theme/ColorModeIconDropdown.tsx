@@ -1,3 +1,5 @@
+'use client';
+
 import * as React from 'react';
 import DarkModeIcon from '@mui/icons-material/DarkModeRounded';
 import LightModeIcon from '@mui/icons-material/LightModeRounded';
@@ -25,15 +27,15 @@ export default function ColorModeIconDropdown(props: IconButtonOwnProps) {
     return (
       <Box
         data-screenshot="toggle-mode"
-        sx={(theme) => ({
+        sx={{
           verticalAlign: 'bottom',
           display: 'inline-flex',
           width: '2.25rem',
           height: '2.25rem',
-          borderRadius: (theme.vars || theme).shape.borderRadius,
+          borderRadius: 'var(--mui-shape-borderRadius)',
           border: '1px solid',
-          borderColor: (theme.vars || theme).palette.divider,
-        })}
+          borderColor: 'var(--mui-palette-divider)',
+        }}
       />
     );
   }

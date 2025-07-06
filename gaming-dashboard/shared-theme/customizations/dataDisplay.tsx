@@ -1,3 +1,5 @@
+'use client';
+
 import { Theme, alpha, Components } from '@mui/material/styles';
 import { svgIconClasses } from '@mui/material/SvgIcon';
 import { typographyClasses } from '@mui/material/Typography';
@@ -20,11 +22,11 @@ export const dataDisplayCustomizations: Components<Theme> = {
   },
   MuiListItem: {
     styleOverrides: {
-      root: ({ theme }) => ({
+      root: {
         [`& .${svgIconClasses.root}`]: {
           width: '1rem',
           height: '1rem',
-          color: (theme.vars || theme).palette.text.secondary,
+          color: 'var(--mui-palette-text-secondary)',
         },
         [`& .${typographyClasses.root}`]: {
           fontWeight: 500,
@@ -33,50 +35,50 @@ export const dataDisplayCustomizations: Components<Theme> = {
           display: 'flex',
           gap: 8,
           padding: '2px 8px',
-          borderRadius: (theme.vars || theme).shape.borderRadius,
+          borderRadius: 'var(--mui-shape-borderRadius)',
           opacity: 0.7,
           '&.Mui-selected': {
             opacity: 1,
-            backgroundColor: alpha(theme.palette.action.selected, 0.3),
+            backgroundColor: 'var(--mui-palette-action-selected)',
             [`& .${svgIconClasses.root}`]: {
-              color: (theme.vars || theme).palette.text.primary,
+              color: 'var(--mui-palette-text-primary)',
             },
             '&:focus-visible': {
-              backgroundColor: alpha(theme.palette.action.selected, 0.3),
+              backgroundColor: 'var(--mui-palette-action-selected)',
             },
             '&:hover': {
-              backgroundColor: alpha(theme.palette.action.selected, 0.5),
+              backgroundColor: 'var(--mui-palette-action-selected)',
             },
           },
           '&:focus-visible': {
             backgroundColor: 'transparent',
           },
         },
-      }),
+      },
     },
   },
   MuiListItemText: {
     styleOverrides: {
-      primary: ({ theme }) => ({
-        fontSize: theme.typography.body2.fontSize,
+      primary: {
+        fontSize: 'var(--mui-typography-body2-fontSize)',
         fontWeight: 500,
-        lineHeight: theme.typography.body2.lineHeight,
-      }),
-      secondary: ({ theme }) => ({
-        fontSize: theme.typography.caption.fontSize,
-        lineHeight: theme.typography.caption.lineHeight,
-      }),
+        lineHeight: 'var(--mui-typography-body2-lineHeight)',
+      },
+      secondary: {
+        fontSize: 'var(--mui-typography-caption-fontSize)',
+        lineHeight: 'var(--mui-typography-caption-lineHeight)',
+      },
     },
   },
   MuiListSubheader: {
     styleOverrides: {
-      root: ({ theme }) => ({
+      root: {
         backgroundColor: 'transparent',
         padding: '4px 8px',
-        fontSize: theme.typography.caption.fontSize,
+        fontSize: 'var(--mui-typography-caption-fontSize)',
         fontWeight: 500,
-        lineHeight: theme.typography.caption.lineHeight,
-      }),
+        lineHeight: 'var(--mui-typography-caption-lineHeight)',
+      },
     },
   },
   MuiListItemIcon: {
@@ -91,7 +93,7 @@ export const dataDisplayCustomizations: Components<Theme> = {
       size: 'small',
     },
     styleOverrides: {
-      root: ({ theme }) => ({
+      root: {
         border: '1px solid',
         borderRadius: '999px',
         [`& .${chipClasses.label}`]: {
@@ -111,7 +113,7 @@ export const dataDisplayCustomizations: Components<Theme> = {
               [`& .${chipClasses.icon}`]: {
                 color: gray[500],
               },
-              ...theme.applyStyles('dark', {
+              '&[data-mui-color-scheme="dark"]': {
                 borderColor: gray[700],
                 backgroundColor: gray[800],
                 [`& .${chipClasses.label}`]: {
@@ -120,7 +122,7 @@ export const dataDisplayCustomizations: Components<Theme> = {
                 [`& .${chipClasses.icon}`]: {
                   color: gray[300],
                 },
-              }),
+              },
             },
           },
           {
@@ -136,7 +138,7 @@ export const dataDisplayCustomizations: Components<Theme> = {
               [`& .${chipClasses.icon}`]: {
                 color: green[500],
               },
-              ...theme.applyStyles('dark', {
+              '&[data-mui-color-scheme="dark"]': {
                 borderColor: green[800],
                 backgroundColor: green[900],
                 [`& .${chipClasses.label}`]: {
@@ -145,7 +147,7 @@ export const dataDisplayCustomizations: Components<Theme> = {
                 [`& .${chipClasses.icon}`]: {
                   color: green[300],
                 },
-              }),
+              },
             },
           },
           {
@@ -161,7 +163,7 @@ export const dataDisplayCustomizations: Components<Theme> = {
               [`& .${chipClasses.icon}`]: {
                 color: red[500],
               },
-              ...theme.applyStyles('dark', {
+              '&[data-mui-color-scheme="dark"]': {
                 borderColor: red[800],
                 backgroundColor: red[900],
                 [`& .${chipClasses.label}`]: {
@@ -170,7 +172,7 @@ export const dataDisplayCustomizations: Components<Theme> = {
                 [`& .${chipClasses.icon}`]: {
                   color: red[300],
                 },
-              }),
+              },
             },
           },
           {
@@ -178,10 +180,10 @@ export const dataDisplayCustomizations: Components<Theme> = {
             style: {
               maxHeight: 20,
               [`& .${chipClasses.label}`]: {
-                fontSize: theme.typography.caption.fontSize,
+                fontSize: 'var(--mui-typography-caption-fontSize)',
               },
               [`& .${svgIconClasses.root}`]: {
-                fontSize: theme.typography.caption.fontSize,
+                fontSize: 'var(--mui-typography-caption-fontSize)',
               },
             },
           },
@@ -189,12 +191,12 @@ export const dataDisplayCustomizations: Components<Theme> = {
             props: { size: 'medium' },
             style: {
               [`& .${chipClasses.label}`]: {
-                fontSize: theme.typography.caption.fontSize,
+                fontSize: 'var(--mui-typography-caption-fontSize)',
               },
             },
           },
         ],
-      }),
+      },
     },
   },
   MuiTablePagination: {

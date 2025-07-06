@@ -1,3 +1,5 @@
+'use client';
+
 import * as React from 'react';
 import MuiAvatar from '@mui/material/Avatar';
 import MuiListItemAvatar from '@mui/material/ListItemAvatar';
@@ -13,13 +15,13 @@ import DevicesRoundedIcon from '@mui/icons-material/DevicesRounded';
 import SmartphoneRoundedIcon from '@mui/icons-material/SmartphoneRounded';
 import ConstructionRoundedIcon from '@mui/icons-material/ConstructionRounded';
 
-const Avatar = styled(MuiAvatar)(({ theme }) => ({
+const Avatar = styled(MuiAvatar)({
   width: 28,
   height: 28,
-  backgroundColor: (theme.vars || theme).palette.background.paper,
-  color: (theme.vars || theme).palette.text.secondary,
-  border: `1px solid ${(theme.vars || theme).palette.divider}`,
-}));
+  backgroundColor: 'var(--mui-palette-background-paper)',
+  color: 'var(--mui-palette-text-secondary)',
+  border: '1px solid var(--mui-palette-divider)',
+});
 
 const ListItemAvatar = styled(MuiListItemAvatar)({
   minWidth: 0,

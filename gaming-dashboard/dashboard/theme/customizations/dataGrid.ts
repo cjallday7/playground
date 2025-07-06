@@ -14,25 +14,25 @@ import { gray } from '../../../shared-theme/themePrimitives';
 export const dataGridCustomizations: DataGridProComponents<Theme> & DataGridProComponents<Theme> = {
   MuiDataGrid: {
     styleOverrides: {
-      root: ({ theme }) => ({
+      root: {
         '--DataGrid-overlayHeight': '300px',
         overflow: 'clip',
-        borderColor: (theme.vars || theme).palette.divider,
-        backgroundColor: (theme.vars || theme).palette.background.default,
+        borderColor: 'var(--mui-palette-divider)',
+        backgroundColor: 'var(--mui-palette-background-default)',
         [`& .${gridClasses.columnHeader}`]: {
-          backgroundColor: (theme.vars || theme).palette.background.paper,
+          backgroundColor: 'var(--mui-palette-background-paper)',
         },
         [`& .${gridClasses.footerContainer}`]: {
-          backgroundColor: (theme.vars || theme).palette.background.paper,
+          backgroundColor: 'var(--mui-palette-background-paper)',
         },
         [`& .${checkboxClasses.root}`]: {
-          padding: theme.spacing(0.5),
+          padding: '4px',
           '& > svg': {
             fontSize: '1rem',
           },
         },
         [`& .${tablePaginationClasses.root}`]: {
-          marginRight: theme.spacing(1),
+          marginRight: '8px',
           '& .MuiIconButton-root': {
             maxHeight: 32,
             maxWidth: 32,
@@ -41,15 +41,16 @@ export const dataGridCustomizations: DataGridProComponents<Theme> & DataGridProC
             },
           },
         },
-      }),
-      cell: ({ theme }) => ({ borderTopColor: (theme.vars || theme).palette.divider }),
-      menu: ({ theme }) => ({
-        borderRadius: theme.shape.borderRadius,
+      },
+      cell: {
+        borderTopColor: 'var(--mui-palette-divider)',
+      },
+      menu: {
+        borderRadius: 'var(--mui-shape-borderRadius)',
         backgroundImage: 'none',
         [`& .${paperClasses.root}`]: {
-          border: `1px solid ${(theme.vars || theme).palette.divider}`,
+          border: '1px solid var(--mui-palette-divider)',
         },
-
         [`& .${menuItemClasses.root}`]: {
           margin: '0 4px',
         },
@@ -60,31 +61,32 @@ export const dataGridCustomizations: DataGridProComponents<Theme> & DataGridProC
           paddingLeft: 0,
           paddingRight: 0,
         },
-      }),
-
-      row: ({ theme }) => ({
-        '&:last-of-type': { borderBottom: `1px solid ${(theme.vars || theme).palette.divider}` },
+      },
+      row: {
+        '&:last-of-type': {
+          borderBottom: '1px solid var(--mui-palette-divider)',
+        },
         '&:hover': {
-          backgroundColor: (theme.vars || theme).palette.action.hover,
+          backgroundColor: 'var(--mui-palette-action-hover)',
         },
         '&.Mui-selected': {
-          background: (theme.vars || theme).palette.action.selected,
+          background: 'var(--mui-palette-action-selected)',
           '&:hover': {
-            backgroundColor: (theme.vars || theme).palette.action.hover,
+            backgroundColor: 'var(--mui-palette-action-hover)',
           },
         },
-      }),
-      iconButtonContainer: ({ theme }) => ({
+      },
+      iconButtonContainer: {
         [`& .${iconButtonClasses.root}`]: {
           border: 'none',
           backgroundColor: 'transparent',
           '&:hover': {
-            backgroundColor: alpha(theme.palette.action.selected, 0.3),
+            backgroundColor: 'rgba(0, 0, 0, 0.04)',
           },
           '&:active': {
             backgroundColor: gray[200],
           },
-          ...theme.applyStyles('dark', {
+          '&[data-mui-color-scheme="dark"]': {
             color: gray[50],
             '&:hover': {
               backgroundColor: gray[800],
@@ -92,10 +94,10 @@ export const dataGridCustomizations: DataGridProComponents<Theme> & DataGridProC
             '&:active': {
               backgroundColor: gray[900],
             },
-          }),
+          },
         },
-      }),
-      menuIconButton: ({ theme }) => ({
+      },
+      menuIconButton: {
         border: 'none',
         backgroundColor: 'transparent',
         '&:hover': {
@@ -104,7 +106,7 @@ export const dataGridCustomizations: DataGridProComponents<Theme> & DataGridProC
         '&:active': {
           backgroundColor: gray[200],
         },
-        ...theme.applyStyles('dark', {
+        '&[data-mui-color-scheme="dark"]': {
           color: gray[50],
           '&:hover': {
             backgroundColor: gray[800],
@@ -112,16 +114,16 @@ export const dataGridCustomizations: DataGridProComponents<Theme> & DataGridProC
           '&:active': {
             backgroundColor: gray[900],
           },
-        }),
-      }),
-      filterForm: ({ theme }) => ({
-        gap: theme.spacing(1),
+        },
+      },
+      filterForm: {
+        gap: '8px',
         alignItems: 'flex-end',
-      }),
-      columnsManagementHeader: ({ theme }) => ({
-        paddingRight: theme.spacing(3),
-        paddingLeft: theme.spacing(3),
-      }),
+      },
+      columnsManagementHeader: {
+        paddingRight: '24px',
+        paddingLeft: '24px',
+      },
       columnHeaderTitleContainer: {
         flexGrow: 1,
         justifyContent: 'space-between',

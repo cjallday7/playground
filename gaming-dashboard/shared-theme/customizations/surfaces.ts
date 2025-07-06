@@ -9,12 +9,12 @@ export const surfacesCustomizations: Components<Theme> = {
       disableGutters: true,
     },
     styleOverrides: {
-      root: ({ theme }) => ({
+      root: {
         padding: 4,
         overflow: 'clip',
-        backgroundColor: (theme.vars || theme).palette.background.default,
+        backgroundColor: 'var(--mui-palette-background-default)',
         border: '1px solid',
-        borderColor: (theme.vars || theme).palette.divider,
+        borderColor: 'var(--mui-palette-divider)',
         ':before': {
           backgroundColor: 'transparent',
         },
@@ -22,27 +22,27 @@ export const surfacesCustomizations: Components<Theme> = {
           borderBottom: 'none',
         },
         '&:first-of-type': {
-          borderTopLeftRadius: (theme.vars || theme).shape.borderRadius,
-          borderTopRightRadius: (theme.vars || theme).shape.borderRadius,
+          borderTopLeftRadius: 'var(--mui-shape-borderRadius)',
+          borderTopRightRadius: 'var(--mui-shape-borderRadius)',
         },
         '&:last-of-type': {
-          borderBottomLeftRadius: (theme.vars || theme).shape.borderRadius,
-          borderBottomRightRadius: (theme.vars || theme).shape.borderRadius,
+          borderBottomLeftRadius: 'var(--mui-shape-borderRadius)',
+          borderBottomRightRadius: 'var(--mui-shape-borderRadius)',
         },
-      }),
+      },
     },
   },
   MuiAccordionSummary: {
     styleOverrides: {
-      root: ({ theme }) => ({
+      root: {
         border: 'none',
         borderRadius: 8,
         '&:hover': { backgroundColor: gray[50] },
         '&:focus-visible': { backgroundColor: 'transparent' },
-        ...theme.applyStyles('dark', {
+        '&[data-mui-color-scheme="dark"]': {
           '&:hover': { backgroundColor: gray[800] },
-        }),
-      }),
+        },
+      },
     },
   },
   MuiAccordionDetails: {
@@ -57,34 +57,32 @@ export const surfacesCustomizations: Components<Theme> = {
   },
   MuiCard: {
     styleOverrides: {
-      root: ({ theme }) => {
-        return {
-          padding: 16,
-          gap: 16,
-          transition: 'all 100ms ease',
-          backgroundColor: gray[50],
-          borderRadius: (theme.vars || theme).shape.borderRadius,
-          border: `1px solid ${(theme.vars || theme).palette.divider}`,
-          boxShadow: 'none',
-          ...theme.applyStyles('dark', {
-            backgroundColor: gray[800],
-          }),
-          variants: [
-            {
-              props: {
-                variant: 'outlined',
-              },
-              style: {
-                border: `1px solid ${(theme.vars || theme).palette.divider}`,
-                boxShadow: 'none',
-                background: 'hsl(0, 0%, 100%)',
-                ...theme.applyStyles('dark', {
-                  background: alpha(gray[900], 0.4),
-                }),
+      root: {
+        padding: 16,
+        gap: 16,
+        transition: 'all 100ms ease',
+        backgroundColor: gray[50],
+        borderRadius: 'var(--mui-shape-borderRadius)',
+        border: '1px solid var(--mui-palette-divider)',
+        boxShadow: 'none',
+        '&[data-mui-color-scheme="dark"]': {
+          backgroundColor: gray[800],
+        },
+        variants: [
+          {
+            props: {
+              variant: 'outlined',
+            },
+            style: {
+              border: '1px solid var(--mui-palette-divider)',
+              boxShadow: 'none',
+              background: 'hsl(0, 0%, 100%)',
+              '&[data-mui-color-scheme="dark"]': {
+                background: alpha(gray[900], 0.4),
               },
             },
-          ],
-        };
+          },
+        ],
       },
     },
   },

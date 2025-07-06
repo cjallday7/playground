@@ -1,3 +1,5 @@
+'use client';
+
 import * as React from 'react';
 import { PieChart } from '@mui/x-charts/PieChart';
 import { useDrawingArea } from '@mui/x-charts/hooks';
@@ -51,46 +53,24 @@ const countries = [
 ];
 
 interface StyledTextProps {
-  variant: 'primary' | 'secondary';
+  'data-variant'?: 'primary' | 'secondary';
 }
 
 const StyledText = styled('text', {
   shouldForwardProp: (prop) => prop !== 'variant',
-})<StyledTextProps>(({ theme }) => ({
+})<StyledTextProps>({
   textAnchor: 'middle',
   dominantBaseline: 'central',
-  fill: (theme.vars || theme).palette.text.secondary,
-  variants: [
-    {
-      props: {
-        variant: 'primary',
-      },
-      style: {
-        fontSize: theme.typography.h5.fontSize,
-      },
-    },
-    {
-      props: ({ variant }) => variant !== 'primary',
-      style: {
-        fontSize: theme.typography.body2.fontSize,
-      },
-    },
-    {
-      props: {
-        variant: 'primary',
-      },
-      style: {
-        fontWeight: theme.typography.h5.fontWeight,
-      },
-    },
-    {
-      props: ({ variant }) => variant !== 'primary',
-      style: {
-        fontWeight: theme.typography.body2.fontWeight,
-      },
-    },
-  ],
-}));
+  fill: 'var(--mui-palette-text-secondary)',
+  '&[data-variant="primary"]': {
+    fontSize: '1.5rem',
+    fontWeight: 300,
+  },
+  '&[data-variant="secondary"]': {
+    fontSize: '0.875rem',
+    fontWeight: 400,
+  },
+});
 
 interface PieCenterLabelProps {
   primaryText: string;
@@ -104,10 +84,10 @@ function PieCenterLabel({ primaryText, secondaryText }: PieCenterLabelProps) {
 
   return (
     <React.Fragment>
-      <StyledText variant="primary" x={left + width / 2} y={primaryY}>
+      <StyledText data-variant="primary" x={left + width / 2} y={primaryY}>
         {primaryText}
       </StyledText>
-      <StyledText variant="secondary" x={left + width / 2} y={secondaryY}>
+      <StyledText data-variant="secondary" x={left + width / 2} y={secondaryY}>
         {secondaryText}
       </StyledText>
     </React.Fragment>

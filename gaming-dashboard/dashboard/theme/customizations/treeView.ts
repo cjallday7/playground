@@ -6,15 +6,15 @@ import { gray, brand } from '../../../shared-theme/themePrimitives';
 export const treeViewCustomizations: TreeViewComponents<Theme> = {
   MuiTreeItem: {
     styleOverrides: {
-      root: ({ theme }) => ({
+      root: {
         position: 'relative',
         boxSizing: 'border-box',
-        padding: theme.spacing(0, 1),
+        padding: '0 8px',
         '& .groupTransition': {
-          marginLeft: theme.spacing(2),
-          padding: theme.spacing(0),
+          marginLeft: '16px',
+          padding: '0',
           borderLeft: '1px solid',
-          borderColor: (theme.vars || theme).palette.divider,
+          borderColor: 'var(--mui-palette-divider)',
         },
         '&:focus-visible .focused': {
           outline: `3px solid ${alpha(brand[500], 0.5)}`,
@@ -25,22 +25,21 @@ export const treeViewCustomizations: TreeViewComponents<Theme> = {
             outlineOffset: '2px',
           },
         },
-      }),
-      content: ({ theme }) => ({
-        marginTop: theme.spacing(1),
-        padding: theme.spacing(0.5, 1),
+      },
+      content: {
+        marginTop: '8px',
+        padding: '4px 8px',
         overflow: 'clip',
         '&:hover': {
           backgroundColor: alpha(gray[300], 0.2),
         },
-
         '&.selected': {
           backgroundColor: alpha(gray[300], 0.4),
           '&:hover': {
             backgroundColor: alpha(gray[300], 0.6),
           },
         },
-        ...theme.applyStyles('dark', {
+        '&[data-mui-color-scheme="dark"]': {
           '&:hover': {
             backgroundColor: alpha(gray[500], 0.2),
           },
@@ -55,8 +54,8 @@ export const treeViewCustomizations: TreeViewComponents<Theme> = {
               backgroundColor: alpha(gray[500], 0.6),
             },
           },
-        }),
-      }),
+        },
+      },
     },
   },
 };

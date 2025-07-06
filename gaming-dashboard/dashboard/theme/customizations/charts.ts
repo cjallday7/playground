@@ -7,7 +7,7 @@ import { gray } from '../../../shared-theme/themePrimitives';
 export const chartsCustomizations: ChartsComponents<Theme> = {
   MuiChartsAxis: {
     styleOverrides: {
-      root: ({ theme }) => ({
+      root: {
         [`& .${axisClasses.line}`]: {
           stroke: gray[300],
         },
@@ -16,7 +16,7 @@ export const chartsCustomizations: ChartsComponents<Theme> = {
           fill: gray[500],
           fontWeight: 500,
         },
-        ...theme.applyStyles('dark', {
+        '&[data-mui-color-scheme="dark"]': {
           [`& .${axisClasses.line}`]: {
             stroke: gray[700],
           },
@@ -25,25 +25,25 @@ export const chartsCustomizations: ChartsComponents<Theme> = {
             fill: gray[300],
             fontWeight: 500,
           },
-        }),
-      }),
+        },
+      },
     },
   },
   MuiChartsTooltip: {
     styleOverrides: {
-      mark: ({ theme }) => ({
+      mark: {
         ry: 6,
         boxShadow: 'none',
-        border: `1px solid ${(theme.vars || theme).palette.divider}`,
-      }),
-      table: ({ theme }) => ({
-        border: `1px solid ${(theme.vars || theme).palette.divider}`,
-        borderRadius: theme.shape.borderRadius,
+        border: '1px solid var(--mui-palette-divider)',
+      },
+      table: {
+        border: '1px solid var(--mui-palette-divider)',
+        borderRadius: 'var(--mui-shape-borderRadius)',
         background: 'hsl(0, 0%, 100%)',
-        ...theme.applyStyles('dark', {
+        '&[data-mui-color-scheme="dark"]': {
           background: gray[900],
-        }),
-      }),
+        },
+      },
     },
   },
   MuiChartsLegend: {
@@ -57,20 +57,20 @@ export const chartsCustomizations: ChartsComponents<Theme> = {
   },
   MuiChartsGrid: {
     styleOverrides: {
-      root: ({ theme }) => ({
+      root: {
         [`& .${chartsGridClasses.line}`]: {
           stroke: gray[200],
           strokeDasharray: '4 2',
           strokeWidth: 0.8,
         },
-        ...theme.applyStyles('dark', {
+        '&[data-mui-color-scheme="dark"]': {
           [`& .${chartsGridClasses.line}`]: {
             stroke: gray[700],
             strokeDasharray: '4 2',
             strokeWidth: 0.8,
           },
-        }),
-      }),
+        },
+      },
     },
   },
 };
