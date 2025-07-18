@@ -1,0 +1,255 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/anaconda3/bin/node',
+1 verbose cli   '/opt/anaconda3/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.13.1
+4 verbose config Skipping project config: /Users/christianjohnson/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly fetchNamedPackageData strip-ansi
+21 silly mapToRegistry name strip-ansi
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry data Result {
+24 silly mapToRegistry   raw: 'strip-ansi',
+24 silly mapToRegistry   scope: null,
+24 silly mapToRegistry   escapedName: 'strip-ansi',
+24 silly mapToRegistry   name: 'strip-ansi',
+24 silly mapToRegistry   rawSpec: '',
+24 silly mapToRegistry   spec: 'latest',
+24 silly mapToRegistry   type: 'tag' }
+25 silly mapToRegistry uri https://registry.npmjs.org/strip-ansi
+26 silly fetchNamedPackageData wrap-ansi
+27 silly mapToRegistry name wrap-ansi
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'wrap-ansi',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'wrap-ansi',
+30 silly mapToRegistry   name: 'wrap-ansi',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/wrap-ansi
+32 verbose request uri https://registry.npmjs.org/strip-ansi
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 4:40:08 PM
+35 verbose request id 91812bf16bea63de
+36 verbose etag W/"ac0377b2d4e7fbe4eea84e483222d0a5"
+37 verbose lastModified Sun, 28 May 2023 09:55:05 GMT
+38 http request GET https://registry.npmjs.org/strip-ansi
+39 verbose request uri https://registry.npmjs.org/wrap-ansi
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 4:40:08 PM
+42 verbose etag W/"096b0befe71ac4a3b08a6a2255515b73"
+43 verbose lastModified Sat, 28 Oct 2023 17:40:35 GMT
+44 http request GET https://registry.npmjs.org/wrap-ansi
+45 http 304 https://registry.npmjs.org/wrap-ansi
+46 verbose headers { date: 'Fri, 18 Jul 2025 20:40:08 GMT',
+46 verbose headers   connection: 'keep-alive',
+46 verbose headers   'cf-ray': '9614cadccefbf5ac-PIT',
+46 verbose headers   'cf-cache-status': 'HIT',
+46 verbose headers   'access-control-allow-origin': '*',
+46 verbose headers   age: '261',
+46 verbose headers   'cache-control': 'public, max-age=300',
+46 verbose headers   etag: '"096b0befe71ac4a3b08a6a2255515b73"',
+46 verbose headers   'last-modified': 'Sat, 28 Oct 2023 17:40:35 GMT',
+46 verbose headers   vary: 'Accept-Encoding',
+46 verbose headers   'set-cookie': [ '_cfuvid=Xn7OHKaYwQ4Gm.AT6WQrgNKbtnfUMGxHkR6TxHMtpJw-1752871208462-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+46 verbose headers   server: 'cloudflare' }
+47 silly get cb [ 304,
+47 silly get   { date: 'Fri, 18 Jul 2025 20:40:08 GMT',
+47 silly get     connection: 'keep-alive',
+47 silly get     'cf-ray': '9614cadccefbf5ac-PIT',
+47 silly get     'cf-cache-status': 'HIT',
+47 silly get     'access-control-allow-origin': '*',
+47 silly get     age: '261',
+47 silly get     'cache-control': 'public, max-age=300',
+47 silly get     etag: '"096b0befe71ac4a3b08a6a2255515b73"',
+47 silly get     'last-modified': 'Sat, 28 Oct 2023 17:40:35 GMT',
+47 silly get     vary: 'Accept-Encoding',
+47 silly get     'set-cookie': [ '_cfuvid=Xn7OHKaYwQ4Gm.AT6WQrgNKbtnfUMGxHkR6TxHMtpJw-1752871208462-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+47 silly get     server: 'cloudflare' } ]
+48 verbose etag https://registry.npmjs.org/wrap-ansi from cache
+49 verbose get saving wrap-ansi to /Users/christianjohnson/.npm/registry.npmjs.org/wrap-ansi/.cache.json
+50 verbose correctMkdir /Users/christianjohnson/.npm correctMkdir not in flight; initializing
+51 http 304 https://registry.npmjs.org/strip-ansi
+52 verbose headers { date: 'Fri, 18 Jul 2025 20:40:08 GMT',
+52 verbose headers   connection: 'keep-alive',
+52 verbose headers   'cf-ray': '9614cadcdb1e1929-PIT',
+52 verbose headers   'cf-cache-status': 'HIT',
+52 verbose headers   'access-control-allow-origin': '*',
+52 verbose headers   age: '258',
+52 verbose headers   'cache-control': 'public, max-age=300',
+52 verbose headers   etag: '"ac0377b2d4e7fbe4eea84e483222d0a5"',
+52 verbose headers   'last-modified': 'Sun, 28 May 2023 09:55:05 GMT',
+52 verbose headers   vary: 'Accept-Encoding',
+52 verbose headers   'set-cookie': [ '_cfuvid=z46to.LLVP2AGWiiKi.Df_wrqS_e1KS8lVY_p0qn.Ow-1752871208480-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+52 verbose headers   server: 'cloudflare' }
+53 silly get cb [ 304,
+53 silly get   { date: 'Fri, 18 Jul 2025 20:40:08 GMT',
+53 silly get     connection: 'keep-alive',
+53 silly get     'cf-ray': '9614cadcdb1e1929-PIT',
+53 silly get     'cf-cache-status': 'HIT',
+53 silly get     'access-control-allow-origin': '*',
+53 silly get     age: '258',
+53 silly get     'cache-control': 'public, max-age=300',
+53 silly get     etag: '"ac0377b2d4e7fbe4eea84e483222d0a5"',
+53 silly get     'last-modified': 'Sun, 28 May 2023 09:55:05 GMT',
+53 silly get     vary: 'Accept-Encoding',
+53 silly get     'set-cookie': [ '_cfuvid=z46to.LLVP2AGWiiKi.Df_wrqS_e1KS8lVY_p0qn.Ow-1752871208480-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+53 silly get     server: 'cloudflare' } ]
+54 verbose etag https://registry.npmjs.org/strip-ansi from cache
+55 verbose get saving strip-ansi to /Users/christianjohnson/.npm/registry.npmjs.org/strip-ansi/.cache.json
+56 verbose correctMkdir /Users/christianjohnson/.npm correctMkdir already in flight; waiting
+57 silly resolveWithNewModule strip-ansi@7.1.0 checking installable status
+58 silly cache add args [ 'strip-ansi@^7.0.1', null ]
+59 verbose cache add spec strip-ansi@^7.0.1
+60 silly cache add parsed spec Result {
+60 silly cache add   raw: 'strip-ansi@^7.0.1',
+60 silly cache add   scope: null,
+60 silly cache add   escapedName: 'strip-ansi',
+60 silly cache add   name: 'strip-ansi',
+60 silly cache add   rawSpec: '^7.0.1',
+60 silly cache add   spec: '>=7.0.1 <8.0.0',
+60 silly cache add   type: 'range' }
+61 silly addNamed strip-ansi@>=7.0.1 <8.0.0
+62 verbose addNamed ">=7.0.1 <8.0.0" is a valid semver range for strip-ansi
+63 silly addNameRange { name: 'strip-ansi', range: '>=7.0.1 <8.0.0', hasData: false }
+64 silly mapToRegistry name strip-ansi
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry data Result {
+67 silly mapToRegistry   raw: 'strip-ansi',
+67 silly mapToRegistry   scope: null,
+67 silly mapToRegistry   escapedName: 'strip-ansi',
+67 silly mapToRegistry   name: 'strip-ansi',
+67 silly mapToRegistry   rawSpec: '',
+67 silly mapToRegistry   spec: 'latest',
+67 silly mapToRegistry   type: 'tag' }
+68 silly mapToRegistry uri https://registry.npmjs.org/strip-ansi
+69 verbose addNameRange registry:https://registry.npmjs.org/strip-ansi not in flight; fetching
+70 silly resolveWithNewModule wrap-ansi@8.1.0 checking installable status
+71 silly cache add args [ 'wrap-ansi@^8.1.0', null ]
+72 verbose cache add spec wrap-ansi@^8.1.0
+73 silly cache add parsed spec Result {
+73 silly cache add   raw: 'wrap-ansi@^8.1.0',
+73 silly cache add   scope: null,
+73 silly cache add   escapedName: 'wrap-ansi',
+73 silly cache add   name: 'wrap-ansi',
+73 silly cache add   rawSpec: '^8.1.0',
+73 silly cache add   spec: '>=8.1.0 <9.0.0',
+73 silly cache add   type: 'range' }
+74 silly addNamed wrap-ansi@>=8.1.0 <9.0.0
+75 verbose addNamed ">=8.1.0 <9.0.0" is a valid semver range for wrap-ansi
+76 silly addNameRange { name: 'wrap-ansi', range: '>=8.1.0 <9.0.0', hasData: false }
+77 silly mapToRegistry name wrap-ansi
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry data Result {
+80 silly mapToRegistry   raw: 'wrap-ansi',
+80 silly mapToRegistry   scope: null,
+80 silly mapToRegistry   escapedName: 'wrap-ansi',
+80 silly mapToRegistry   name: 'wrap-ansi',
+80 silly mapToRegistry   rawSpec: '',
+80 silly mapToRegistry   spec: 'latest',
+80 silly mapToRegistry   type: 'tag' }
+81 silly mapToRegistry uri https://registry.npmjs.org/wrap-ansi
+82 verbose addNameRange registry:https://registry.npmjs.org/wrap-ansi not in flight; fetching
+83 verbose get https://registry.npmjs.org/strip-ansi not expired, no request
+84 silly addNameRange number 2 { name: 'strip-ansi', range: '>=7.0.1 <8.0.0', hasData: true }
+85 silly addNameRange versions [ 'strip-ansi',
+85 silly addNameRange   [ '0.1.0',
+85 silly addNameRange     '0.1.1',
+85 silly addNameRange     '0.2.0',
+85 silly addNameRange     '0.2.1',
+85 silly addNameRange     '0.2.2',
+85 silly addNameRange     '0.3.0',
+85 silly addNameRange     '1.0.0',
+85 silly addNameRange     '2.0.0',
+85 silly addNameRange     '2.0.1',
+85 silly addNameRange     '3.0.0',
+85 silly addNameRange     '3.0.1',
+85 silly addNameRange     '4.0.0',
+85 silly addNameRange     '5.0.0',
+85 silly addNameRange     '5.1.0',
+85 silly addNameRange     '5.2.0',
+85 silly addNameRange     '6.0.0',
+85 silly addNameRange     '7.0.0',
+85 silly addNameRange     '7.0.1',
+85 silly addNameRange     '6.0.1',
+85 silly addNameRange     '7.1.0' ] ]
+86 silly addNamed strip-ansi@7.1.0
+87 verbose addNamed "7.1.0" is a plain semver version for strip-ansi
+88 verbose get https://registry.npmjs.org/wrap-ansi not expired, no request
+89 silly addNameRange number 2 { name: 'wrap-ansi', range: '>=8.1.0 <9.0.0', hasData: true }
+90 silly addNameRange versions [ 'wrap-ansi',
+90 silly addNameRange   [ '0.1.0',
+90 silly addNameRange     '0.2.0',
+90 silly addNameRange     '0.3.0',
+90 silly addNameRange     '1.0.0',
+90 silly addNameRange     '2.0.0',
+90 silly addNameRange     '2.1.0-candidate',
+90 silly addNameRange     '2.1.0',
+90 silly addNameRange     '3.0.0',
+90 silly addNameRange     '3.0.1',
+90 silly addNameRange     '4.0.0',
+90 silly addNameRange     '5.0.0',
+90 silly addNameRange     '5.1.0',
+90 silly addNameRange     '6.0.0',
+90 silly addNameRange     '6.1.0',
+90 silly addNameRange     '6.2.0',
+90 silly addNameRange     '7.0.0',
+90 silly addNameRange     '8.0.0',
+90 silly addNameRange     '8.0.1',
+90 silly addNameRange     '8.1.0',
+90 silly addNameRange     '9.0.0' ] ]
+91 silly addNamed wrap-ansi@8.1.0
+92 verbose addNamed "8.1.0" is a plain semver version for wrap-ansi
+93 silly cache afterAdd wrap-ansi@8.1.0
+94 verbose afterAdd /Users/christianjohnson/.npm/wrap-ansi/8.1.0/package/package.json not in flight; writing
+95 verbose correctMkdir /Users/christianjohnson/.npm correctMkdir not in flight; initializing
+96 silly cache afterAdd strip-ansi@7.1.0
+97 verbose afterAdd /Users/christianjohnson/.npm/strip-ansi/7.1.0/package/package.json not in flight; writing
+98 verbose correctMkdir /Users/christianjohnson/.npm correctMkdir not in flight; initializing
+99 verbose afterAdd /Users/christianjohnson/.npm/wrap-ansi/8.1.0/package/package.json written
+100 verbose afterAdd /Users/christianjohnson/.npm/strip-ansi/7.1.0/package/package.json written
+101 silly rollbackFailedOptional Starting
+102 silly rollbackFailedOptional Finishing
+103 silly runTopLevelLifecycles Finishing
+104 silly install printInstalled
+105 verbose stack Error: Unsupported URL Type: npm:string-width@^4.2.0
+105 verbose stack     at parseUrl (/opt/anaconda3/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:186:13)
+105 verbose stack     at npa (/opt/anaconda3/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:79:12)
+105 verbose stack     at module.exports (/opt/anaconda3/lib/node_modules/npm/node_modules/realize-package-specifier/index.js:12:15)
+105 verbose stack     at childDependencySpecifier (/opt/anaconda3/lib/node_modules/npm/lib/install/deps.js:104:3)
+105 verbose stack     at addDependency (/opt/anaconda3/lib/node_modules/npm/lib/install/deps.js:442:3)
+105 verbose stack     at /opt/anaconda3/lib/node_modules/npm/lib/install/deps.js:401:5
+105 verbose stack     at /opt/anaconda3/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+105 verbose stack     at Array.forEach (native)
+105 verbose stack     at /opt/anaconda3/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+105 verbose stack     at Array.forEach (native)
+106 verbose cwd /Users/christianjohnson/Documents/GitHub/playground
+107 error Darwin 24.5.0
+108 error argv "/opt/anaconda3/bin/node" "/opt/anaconda3/bin/npm" "install"
+109 error node v6.13.1
+110 error npm  v3.10.10
+111 error Unsupported URL Type: npm:string-width@^4.2.0
+112 error If you need help, you may report this error at:
+112 error     <https://github.com/npm/npm/issues>
+113 verbose exit [ 1, true ]
