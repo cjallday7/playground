@@ -24,6 +24,7 @@ export default function Dashboard() {
       {/* App Bar / Top Nav */}
       <AppBar
         sx={{
+          zIndex: 1100,
           width: `calc(100% - ${drawerWidth}px)`,
           ml: `${drawerWidth}px`,
         }}
@@ -39,6 +40,7 @@ export default function Dashboard() {
       <Drawer
         variant="permanent"
         sx={{
+          zIndex: 1200,
           width: drawerWidth,
           flexShrink: 0,
           [`& .MuiDrawer-paper`]: {
