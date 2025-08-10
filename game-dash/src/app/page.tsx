@@ -11,8 +11,10 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
+import HomeIcon from "@mui/icons-material/Home";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import SettingsIcon from "@mui/icons-material/Settings";
 
 const drawerWidth = 240;
 
@@ -52,12 +54,14 @@ export default function Dashboard() {
         <Toolbar />
         <Box sx={{ overflow: "auto" }}>
           <List>
-            {["Dashboard", "Backlog", "Achievements", "Drafts"].map(
+            {["Dashboard", "Backlog", "Achievements"].map(
               (text, index) => (
                 <ListItem key={text} disablePadding>
                   <ListItemButton>
                     <ListItemIcon>
-                      {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                      {index === 0 && <HomeIcon />} 
+                      {index === 1 && <SportsEsportsIcon />}
+                      {index === 2 && <EmojiEventsIcon />}
                     </ListItemIcon>
                     <ListItemText primary={text} />
                   </ListItemButton>
@@ -67,11 +71,11 @@ export default function Dashboard() {
           </List>
           <Divider />
           <List>
-            {["All mail", "Trash", "Spam"].map((text, index) => (
+            {["Settings"].map((text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
                   <ListItemIcon>
-                    {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                    {index === 0 && <SettingsIcon />}
                   </ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItemButton>
@@ -81,27 +85,26 @@ export default function Dashboard() {
         </Box>
       </Drawer>
 
+      {/* Main Content */}
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar />
+
+        {/* Welcome Back message */}
         <Typography variant="h4" sx={{ marginBottom: 2 }}>
           Welcome Back, @hypraktiv!
         </Typography>
 
-        <Typography sx={{ marginBottom: 2 }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus
-          dolor purus non enim praesent elementum facilisis leo vel. Risus at
-          ultrices mi tempus imperdiet. Semper risus in hendrerit gravida rutrum
-          quisque non tellus. Convallis convallis tellus id interdum velit
-          laoreet id donec ultrices. Odio morbi quis commodo odio aenean sed
-          adipiscing. Amet nisl suscipit adipiscing bibendum est ultricies
-          integer quis. Cursus euismod quis viverra nibh cras. Metus vulputate
-          eu scelerisque felis imperdiet proin fermentum leo. Mauris commodo
-          quis imperdiet massa tincidunt. Cras tincidunt lobortis feugiat
-          vivamus at augue. At augue eget arcu dictum varius duis at consectetur
-          lorem. Velit sed ullamcorper morbi tincidunt. Lorem donec massa sapien
-          faucibus et molestie ac.
+        {/* Recently Played on Steam section */}
+        <Typography variant="h5" sx={{ marginBottom: 2 }}>
+          Recently Played on Steam
         </Typography>
+
+        {/* Recently Played on Xbox section */}
+        <Typography variant="h5" sx={{ marginBottom: 2 }}>
+          Recently Played on Xbox
+        </Typography>
+
+
         <Typography sx={{ marginBottom: 2 }}>
           Consequat mauris nunc congue nisi vitae suscipit. Fringilla est
           ullamcorper eget nulla facilisi etiam dignissim diam. Pulvinar
