@@ -9,11 +9,11 @@ interface Game {
   img_icon_url: string;
 }
 
-const RecentlyPlayed = async () => {
+const RecentlyPlayedSteam = async () => {
   const games = await getRecentlyPlayedGames();
 
   return (
-    <div className="recently-played-games">
+    <div className="recently-played-games-steam">
       <h2 className="text-2xl font-bold mb-4">Recently Played on Steam</h2>
       {games.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -38,4 +38,4 @@ const RecentlyPlayed = async () => {
   );
 };
 
-export default RecentlyPlayed;
+export default RecentlyPlayedSteam;
