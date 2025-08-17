@@ -16,6 +16,7 @@ import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import SettingsIcon from "@mui/icons-material/Settings";
 import RecentlyPlayed from "../components/RecentlyPlayed";
+import RecentlyPlayedXbox from "../components/RecentlyPlayedXbox";
 
 const drawerWidth = 240;
 
@@ -99,9 +100,7 @@ export default function Dashboard() {
         <RecentlyPlayed />
 
         {/* Recently Played on Xbox section */}
-        <Typography variant="h5" sx={{ marginBottom: 2 }}>
-          Recently Played on Xbox
-        </Typography>
+        <RecentlyPlayedXbox />
       </Box>
     </Box>
   );
