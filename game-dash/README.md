@@ -1,5 +1,23 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Environment Setup
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```bash
+# Steam API Configuration
+STEAM_API_KEY=your_steam_api_key_here
+STEAM_ID=your_steam_id_here
+
+# OpenXBL API Configuration  
+OPENXBL_API_KEY=your_openxbl_api_key_here
+```
+
+### Getting API Keys:
+1. **Steam API Key**: Get from [Steam Web API](https://steamcommunity.com/dev/apikey)
+2. **Steam ID**: Find yours at [Steam ID Finder](https://steamidfinder.com/)
+3. **OpenXBL API Key**: Get from [OpenXBL](https://xbl.io/)
+
 ## Getting Started
 
 First, run the development server:
