@@ -1,5 +1,6 @@
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
+import Link from "next/link";
 import { getRecentlyPlayedGames } from "@/lib/steam";
 import RecentlyPlayed from "@/components/RecentlyPlayed";
 
@@ -13,47 +14,117 @@ export default function Home() {
         </p>
 
         <section>
-          <h2 className="text-xl font-bold">Recently Played on Steam</h2>
+          <h2 className="text-xl font-bold mb-4">Recently Played on Steam</h2>
           {/* <RecentlyPlayed /> */}
-          <div>
-            <Card>
+          <div className="flex gap-6 flex-wrap">
+            <Card className="min-w-[200px] flex-1 max-w-[280px]">
               <CardHeader>
-                <Image 
-                  src="/images/palia.png" 
-                  alt="Palia" 
-                  width={100} 
-                  height={100} 
-                  className="rounded-md" 
+                <Image
+                  src="/images/palia.png"
+                  alt="Palia"
+                  width={200}
+                  height={200}
+                  className="rounded-md w-full h-48 object-cover mb-2"
                 />
-                <CardTitle>Palia</CardTitle>
+                <CardTitle className="text-left">Palia</CardTitle>
               </CardHeader>
             </Card>
 
-            <Card>
+            <Card className="min-w-[200px] flex-1 max-w-[280px]">
               <CardHeader>
-                <Image src="/images/peak.png" alt="PEAK" width={100} height={100} className="rounded-md" />
-                <CardTitle>PEAK</CardTitle>
+                <Image
+                  src="/images/peak.png"
+                  alt="PEAK"
+                  width={200}
+                  height={200}
+                  className="rounded-md w-full h-48 object-cover mb-2"
+                />
+                <CardTitle className="text-left">PEAK</CardTitle>
               </CardHeader>
             </Card>
 
-            <Card>
+            <Card className="min-w-[200px] flex-1 max-w-[280px]">
               <CardHeader>
-                <Image src="/images/pretty_derby.png" alt="Umamusume: Pretty Derby" width={100} height={100} className="rounded-md" />
-                <CardTitle>Umamusume: Pretty Derby</CardTitle>
+                <Image
+                  src="/images/pretty_derby.png"
+                  alt="Umamusume: Pretty Derby"
+                  width={200}
+                  height={200}
+                  className="rounded-md w-full h-48 object-cover mb-2"
+                />
+                <CardTitle className="text-left">
+                  Umamusume: Pretty Derby
+                </CardTitle>
               </CardHeader>
             </Card>
           </div>
         </section>
 
-        <section>
-          <h2 className="text-xl font-bold">Recently Played on Xbox</h2>
+        {/* Recently Played on Xbox */}
+        <section className="mt-8">
+          <h2 className="text-xl font-bold mb-4">Recently Played on Xbox</h2>
           {/* <RecentlyPlayed /> */}
-          <div>
-            <Card>
-              <CardHeader>
-                <CardTitle>Metaphor: ReFantazio</CardTitle>
-              </CardHeader>
-            </Card>
+          <div className="flex gap-6 flex-wrap">
+            <Link
+              href="https://www.xbox.com/en-US/games/store/metaphor-refantazio/9N5DV8310XP7/0010"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer">
+                <CardHeader>
+                  <Image
+                    src="/images/metaphor.png"
+                    alt="Metaphor: ReFantazio"
+                    width={200}
+                    height={200}
+                    className="rounded-md w-full h-48 object-cover mb-2"
+                  />
+                  <CardTitle className="text-left">
+                    Metaphor: ReFantazio
+                  </CardTitle>
+                </CardHeader>
+              </Card>
+            </Link>
+
+            <Link
+              href="https://www.xbox.com/en-us/games/store/hollow-knight-silksong/9n116v0599hb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer">
+                <CardHeader>
+                  <Image
+                    src="/images/silksong.png"
+                    alt="Hollow Knight: Silksong"
+                    width={200}
+                    height={200}
+                    className="rounded-md w-full h-48 object-cover mb-2"
+                  />
+                  <CardTitle className="text-left">
+                    Hollow Knight: Silksong
+                  </CardTitle>
+                </CardHeader>
+              </Card>
+            </Link>
+
+            <Link
+              href="https://www.xbox.com/en-US/games/store/street-fighter-6/9NM79B7N9JM6/0010"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer">
+                <CardHeader>
+                  <Image
+                    src="/images/sf6.png"
+                    alt="Street Fighter 6"
+                    width={200}
+                    height={200}
+                    className="rounded-md w-full h-48 object-cover mb-2"
+                  />
+                  <CardTitle className="text-left">Street Fighter 6</CardTitle>
+                </CardHeader>
+              </Card>
+            </Link>
           </div>
         </section>
 
