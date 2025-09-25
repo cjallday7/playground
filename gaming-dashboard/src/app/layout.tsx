@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       >
         <SidebarProvider>
           <AppSidebar />
-          <main>
+          <main className="flex-1 p-6">
             <SidebarTrigger />
             {children}
           </main>
