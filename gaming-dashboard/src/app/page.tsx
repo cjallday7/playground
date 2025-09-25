@@ -13,8 +13,41 @@ export default function Home() {
         </p>
 
         <section>
-          <h2 className="text-xl font-bold">Latest Games</h2>
-          <RecentlyPlayed />
+          <h2 className="text-xl font-bold">Recently Played on Steam</h2>
+          {/* <RecentlyPlayed /> */}
+          <div>
+            <Card>
+              <CardHeader>
+                <Image 
+                  src="/images/palia.png" 
+                  alt="Palia" 
+                  width={100} 
+                  height={100} 
+                  className="rounded-md" 
+                />
+                <CardTitle>Palia</CardTitle>
+              </CardHeader>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <Image src="/images/peak.png" alt="PEAK" width={100} height={100} className="rounded-md" />
+                <CardTitle>PEAK</CardTitle>
+              </CardHeader>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <Image src="/images/pretty_derby.png" alt="Umamusume: Pretty Derby" width={100} height={100} className="rounded-md" />
+                <CardTitle>Umamusume: Pretty Derby</CardTitle>
+              </CardHeader>
+            </Card>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold">Recently Played on Xbox</h2>
+          {/* <RecentlyPlayed /> */}
           <div>
             <Card>
               <CardHeader>
