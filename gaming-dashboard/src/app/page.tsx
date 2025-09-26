@@ -18,7 +18,7 @@ export default function Home() {
           <h2 className="text-xl font-bold">Recently Played on Steam</h2>
           {/* <RecentlyPlayed /> */}
           <div className="flex gap-6 flex-wrap">
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer h-full">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer h-full">
               <Link
                 href="https://store.steampowered.com/app/2707930/Palia/"
                 target="_blank"
@@ -37,7 +37,7 @@ export default function Home() {
               </Link>
             </Card>
 
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer h-full">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer h-full">
               <Link
                 href="https://store.steampowered.com/app/3527290/PEAK/"
                 target="_blank"
@@ -56,7 +56,7 @@ export default function Home() {
               </Link>
             </Card>
 
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer h-full">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer h-full">
               <Link
                 href="https://store.steampowered.com/app/3224770/Umamusume_Pretty_Derby/"
                 target="_blank"
@@ -77,7 +77,7 @@ export default function Home() {
               </Link>
             </Card>
 
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer h-full">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer h-full">
               <Link
                 href="https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_1525_ReMIX/"
                 target="_blank"
@@ -96,7 +96,7 @@ export default function Home() {
               </Link>
             </Card>
 
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer h-full">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer h-full">
               <Link
                 href="https://store.steampowered.com/app/2379780/Balatro/"
                 target="_blank"
@@ -122,7 +122,7 @@ export default function Home() {
           <h2 className="text-xl font-bold">Recently Played on Xbox</h2>
           {/* <RecentlyPlayed /> */}
           <div className="flex gap-6 flex-wrap">
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer">
               <Link
                 href="https://www.xbox.com/en-US/games/store/metaphor-refantazio/9N5DV8310XP7/0010"
                 target="_blank"
@@ -143,7 +143,7 @@ export default function Home() {
               </Link>
             </Card>
 
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer">
               <Link
                 href="https://www.xbox.com/en-us/games/store/hollow-knight-silksong/9n116v0599hb"
                 target="_blank"
@@ -164,7 +164,7 @@ export default function Home() {
               </Link>
             </Card>
 
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer">
               <Link
                 href="https://www.xbox.com/en-US/games/store/street-fighter-6/9NM79B7N9JM6/0010"
                 target="_blank"
@@ -183,7 +183,7 @@ export default function Home() {
               </Link>
             </Card>
 
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer">
               <Link
                 href="https://www.xbox.com/en-sg/games/store/south-of-midnight/9njcvgs6t30k"
                 target="_blank"
@@ -202,7 +202,7 @@ export default function Home() {
               </Link>
             </Card>
 
-            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg transition-shadow cursor-pointer">
+            <Card className="min-w-[200px] flex-1 max-w-[280px] hover:shadow-lg dark:hover:shadow-white/20 transition-shadow cursor-pointer">
               <Link
                 href="https://www.xbox.com/en-SG/games/store/party-animals/9mz08rdq4dm1"
                 target="_blank"
