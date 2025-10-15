@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="font-sans max-w-7xl mx-auto">
       <div className="space-y-8">
-        <h1 className="text-2xl font-bold">Hello, @hypraktiv 👋🏿</h1>
+        <h1 className="text-6xl font-bold">Hello, @hypraktiv 👋🏿</h1>
         <p className="text-lg text-gray-500">
           Here are the latest updates on your gaming backlog.
         </p>
@@ -234,20 +234,23 @@ export default function Home() {
                   <TableHead>Platform</TableHead>
                   <TableHead>Playtime (Hours)</TableHead>
                   <TableHead>Achievements</TableHead>
+                  <TableHead>Last Played</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 <TableRow>
                   <TableCell className="font-medium">Metaphor: ReFantazio</TableCell>
                   <TableCell>Xbox</TableCell>
-                  <TableCell>78.4</TableCell>
-                  <TableCell>15/82</TableCell>
+                  <TableCell>104</TableCell>
+                  <TableCell>22/44</TableCell>
+                  <TableCell>10-14-2025</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell className="font-medium">Umamusume: Pretty Derby</TableCell>
                   <TableCell>Steam</TableCell>
-                  <TableCell>58</TableCell>
-                  <TableCell>15/20</TableCell>
+                  <TableCell>63</TableCell>
+                  <TableCell>16/20</TableCell>
+                  <TableCell>10-14-2025</TableCell>
                 </TableRow>
               </TableBody>
             </Table>

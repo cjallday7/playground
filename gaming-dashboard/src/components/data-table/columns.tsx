@@ -10,6 +10,7 @@ export type Library = {
   platform: "Xbox" | "Steam" | "Mobile";
   playtime: number;
   achievements: number;
+  lastPlayed: number;
 };
 
 export const columns: ColumnDef<Library>[] = [
@@ -29,4 +30,8 @@ export const columns: ColumnDef<Library>[] = [
     accessorKey: "achievements",
     header: "Achievements",
   },
+  {
+    accessorKey: "lastPlayed",
+    header: "Last Played",
+  }
 ];
