@@ -46,15 +46,9 @@ export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader>
-        <SidebarMenu>
-          <SidebarMenuItem>
-            <SidebarMenuButton asChild>
-              <a href="#">
-                <span>BACKLOG</span>
-              </a>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-        </SidebarMenu>
+        <a href="#">
+          <span className="text-2xl font-bold">BACKLOG</span>
+        </a>
       </SidebarHeader>
 
       <SidebarContent>
