@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   description: "Your Formula 1 Dashboard",
 };
 
+// Root layout component
 export default function RootLayout({
   children,
 }: Readonly<{
