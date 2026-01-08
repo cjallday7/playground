@@ -3,22 +3,23 @@
 import { ReactNode } from "react";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { ThemeProvider } from "next-themes";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
 import { queryClient } from "@/lib/query-client";
-import App from "next/app";
 import { AppSidebar } from "@/components/layout/app-sidebar";
-import { Sidebar } from "lucide-react";
+import { Header } from "@/components/layout/header";
 
 export function Providers({ children }: { children: ReactNode }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <QueryClientProvider client={queryClient}>
         <SidebarProvider>
-            <AppSidebar />
-            <main>
-                <SidebarTrigger />
-                {children}
+          <AppSidebar />
+          <SidebarInset>
+            <Header />
+            <main className="flex-1 overflow-auto p-4">
+              {children}
             </main>
+          </SidebarInset>
         </SidebarProvider>
       </QueryClientProvider>
     </ThemeProvider>
