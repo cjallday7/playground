@@ -1,0 +1,1 @@
+//App-wide TypeScript types and interfaces
