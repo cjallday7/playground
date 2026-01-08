@@ -28,9 +28,9 @@ import {
 const navItems = [
   { label: "Paddock", icon: Home, href: "/" },
   { label: "Race Central", icon: Search, href: "/search" },
-  { label: "Drivers", icon: Settings, href: "/calendar" },
+  { label: "Drivers", icon: Settings, href: "/settings" },
   { label: "Constructors", icon: Inbox, href: "/inbox" },
-  { label: "Calendar", icon: Calendar, href: "/settings" },
+  { label: "Calendar", icon: Calendar, href: "/calendar" },
 ]
 
 export function AppSidebar() {
