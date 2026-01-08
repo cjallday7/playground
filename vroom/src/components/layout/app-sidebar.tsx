@@ -1,7 +1,7 @@
 // Sidebar Component for Navigation and Layout
 
 //placeholder icons
-import { Calendar, Home, Inbox, Search, Settings, User, ChevronUp } from "lucide-react"
+import { Calendar, Home, LucideFlag, Settings, User, ChevronUp, CarIcon, CircleUser } from "lucide-react"
 
 
 import {
@@ -17,6 +17,13 @@ import {
   SidebarHeader,
 } from "@/components/ui/sidebar"
 
+import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+} from "@/components/ui/avatar"
+
+
 import { 
     DropdownMenu,
     DropdownMenuContent, 
@@ -27,9 +34,9 @@ import {
 //nav items
 const navItems = [
   { label: "Paddock", icon: Home, href: "/" },
-  { label: "Race Central", icon: Search, href: "/search" },
-  { label: "Drivers", icon: Settings, href: "/settings" },
-  { label: "Constructors", icon: Inbox, href: "/inbox" },
+  { label: "Race Central", icon: LucideFlag, href: "/race" },
+  { label: "Drivers", icon: CircleUser, href: "/drivers" },
+  { label: "Constructors", icon: CarIcon, href: "/constructors" },
   { label: "Calendar", icon: Calendar, href: "/calendar" },
 ]
 
@@ -62,7 +69,11 @@ export function AppSidebar() {
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <SidebarMenuButton>
-                    <User className="w-4 h-4" /> @hypraktiv
+                    <Avatar className="w-6 h-6">
+                      <AvatarImage src="https://avatars.githubusercontent.com/u/33044116?v=4" />
+                      <AvatarFallback>HY</AvatarFallback>
+                    </Avatar>
+                    <span /> @hypraktiv
                     <ChevronUp className="ml-auto" />
                   </SidebarMenuButton>
                 </DropdownMenuTrigger>
