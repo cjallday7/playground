@@ -1,5 +1,8 @@
 function ElasticToggle() {
-  return null
+  return (
+    <button type="button" aria-label="Toggle">
+    </button>
+  )
 }
 
 export default ElasticToggle
