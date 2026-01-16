@@ -5,11 +5,17 @@ function ElasticToggle() {
   const [isOn, setIsOn] = useState(false)
   const [isMoving, setIsMoving] = useState(false)
 
+  const handleClick = () => {
+    setIsOn(!isOn)
+    setIsMoving(true)
+    setTimeout(() => setIsMoving(false), 150)
+  }
+
   return (
     <button
       type="button"
       aria-label="Toggle"
-      onClick={() => setIsOn(!isOn)}
+      onClick={handleClick}
       style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}
     >
       <svg width="80" height="40" viewBox="0 0 80 40">
@@ -20,8 +26,6 @@ function ElasticToggle() {
           ry="16"
           fill="#fff"
           transition={{ type: 'spring', stiffness: 500, damping: 30 }}
-          onAnimationStart={() => setIsMoving(true)}
-          onAnimationComplete={() => setIsMoving(false)}
         />
       </svg>
     </button>
