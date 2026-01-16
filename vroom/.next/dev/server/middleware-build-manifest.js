@@ -1,0 +1,51 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": [
+      "static/chunks/be987_next_dist_compiled_66245771._.js",
+      "static/chunks/be987_next_dist_shared_lib_945279f3._.js",
+      "static/chunks/be987_next_dist_client_5a956da7._.js",
+      "static/chunks/be987_next_dist_27ac0abb._.js",
+      "static/chunks/be987_next_app_b1ea402f.js",
+      "static/chunks/[next]_entry_page-loader_ts_05df144d._.js",
+      "static/chunks/be987_react-dom_063d8aa0._.js",
+      "static/chunks/be987_c66cf816._.js",
+      "static/chunks/[root-of-the-server]__dc76aa8f._.js",
+      "static/chunks/GitHub_playground_vroom_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-GitHub_playground_vroom_pages__app_ed2f0a9f._.js"
+    ],
+    "/_error": [
+      "static/chunks/be987_next_dist_compiled_66245771._.js",
+      "static/chunks/be987_next_dist_shared_lib_4e847504._.js",
+      "static/chunks/be987_next_dist_client_5a956da7._.js",
+      "static/chunks/be987_next_dist_3c02113f._.js",
+      "static/chunks/be987_next_error_6c743732.js",
+      "static/chunks/[next]_entry_page-loader_ts_5c0a258e._.js",
+      "static/chunks/be987_react-dom_063d8aa0._.js",
+      "static/chunks/be987_c66cf816._.js",
+      "static/chunks/[root-of-the-server]__131645d4._.js",
+      "static/chunks/GitHub_playground_vroom_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-GitHub_playground_vroom_pages__error_0108951b._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/be987_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_ff54e7d2._.js",
+    "static/chunks/be987_next_dist_compiled_react-dom_c06f3e17._.js",
+    "static/chunks/be987_next_dist_compiled_react-server-dom-turbopack_b097eb1a._.js",
+    "static/chunks/be987_next_dist_compiled_next-devtools_index_24c74668.js",
+    "static/chunks/be987_next_dist_compiled_95043e96._.js",
+    "static/chunks/be987_next_dist_client_1f2e2358._.js",
+    "static/chunks/be987_next_dist_d3a0e7fc._.js",
+    "static/chunks/be987_@swc_helpers_cjs_b77c18bf._.js",
+    "static/chunks/GitHub_playground_vroom_a0ff3932._.js",
+    "static/chunks/turbopack-GitHub_playground_vroom_cad951f7._.js"
+  ]
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js"
+];

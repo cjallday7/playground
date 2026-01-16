@@ -1,0 +1,659 @@
+[00:00:00.993] Server  LOG     ✓ Ready in 747ms
+[00:00:43.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:43.757] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:17.397] Server  ERROR   ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:19:17.585] Server  ERROR   ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:19:17.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:18.755] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:20:25.455] Server  LOG     ✓ Compiled in 34ms
+[00:20:25.727] Server  ERROR   ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:20:25.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:26.755] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:20:38.438] Server  ERROR   ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:20:38.541] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:38.541] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:21:32.276] Server  ERROR   ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:21:32.419] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:32.752] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:21:52.484] Server  ERROR   ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:21:52.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:52.748] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:24:32.672] Server  ERROR   ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:24:32.867] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:33.756] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:24:35.757] Server  ERROR   ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:24:35.904] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:36.021] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={{...}}>
+              ^^^^
+[00:26:17.736] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:17.818] Server  ERROR   ⨯ ReferenceError: ThemeProvider is not defined
+[00:26:17.959] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:19.750] Browser ERROR   uncaughtError: ReferenceError: ThemeProvider is not defined
+[00:26:19.750] Browser ERROR   uncaughtError: TypeError: Failed to execute 'measure' on 'Performance': '​RootLayout' cannot have a negative time stamp.
+[00:26:19.940] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:20.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:20.755] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:40:39.200] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:39.379] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:40:42.344] Server  LOG     ✓ Compiled in 61ms
+[00:40:42.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:42.749] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:45:32.025] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:32.279] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:46:57.696] Browser ERROR   ./GitHub/playground/vroom/src/app/providers.tsx:11:1
+Ecmascript file had an error
+   9 | import { AppSidebar } from "@/components/layout/app-sidebar";
+  10 | import { Sidebar } from "lucide-react";
+> 11 | import { cookies } from "next/headers";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | export function Providers({ children }: { children: ReactNode }) {
+  13 |   return (
+  14 |     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+
+You're importing a component that needs "next/headers". That only works in a Server Component but one of its parents is marked with "use client", so it's a Client Component.
+Learn more: https://nextjs.org/docs/app/building-your-application/rendering
+
+Import trace:
+  Server Component:
+    ./GitHub/playground/vroom/src/app/providers.tsx
+    ./GitHub/playground/vroom/src/app/layout.tsx
+[00:49:05.540] Server  LOG     ✓ Compiled in 39ms
+[00:53:14.192] Server  LOG     ✓ Compiled in 49ms
+[00:53:14.750] Browser ERROR   ./GitHub/playground/vroom/src/components/layout/app-sidebar.tsx:11:3
+Parsing ecmascript source code failed
+   9 |   SidebarMenu,
+  10 |   SidebarMenuItem
+> 11 |   SidebarHeader,
+     |   ^^^^^^^^^^^^^
+  12 | } from "@/components/ui/sidebar"
+  13 |
+  14 | export function AppSidebar() {
+
+Expected ',', got 'SidebarHeader'
+
+Import traces:
+  Client Component Browser:
+    ./GitHub/playground/vroom/src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./GitHub/playground/vroom/src/app/providers.tsx [Client Component Browser]
+    ./GitHub/playground/vroom/src/app/providers.tsx [Server Component]
+    ./GitHub/playground/vroom/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./GitHub/playground/vroom/src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./GitHub/playground/vroom/src/app/providers.tsx [Client Component SSR]
+    ./GitHub/playground/vroom/src/app/providers.tsx [Server Component]
+    ./GitHub/playground/vroom/src/app/layout.tsx [Server Component]
+[00:57:37.489] Server  LOG     ✓ Compiled in 75ms
+[00:57:37.739] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:38.755] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:59:08.032] Server  LOG     ✓ Compiled in 39ms
+[01:02:54.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:54.925] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:55.097] Server  LOG     ✓ Compiled in 53ms
+[01:07:22.777] Server  LOG     ✓ Compiled in 45ms
+[01:07:27.765] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:30.075] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:30.197] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:12:53.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:54.306] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:15:44.406] Server  LOG     ✓ Compiled in 45ms
+[01:15:47.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:47.431] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:16:48.837] Server  LOG     ✓ Compiled in 65ms
+[01:17:05.403] Server  LOG     ✓ Compiled in 42ms
+[01:17:24.930] Server  LOG     ✓ Compiled in 44ms
+[01:21:41.379] Server  LOG     ✓ Compiled in 39ms
+[01:22:02.327] Server  LOG     ✓ Compiled in 41ms
+[01:35:32.535] Server  LOG     ✓ Compiled in 55ms
+[01:37:26.753] Server  LOG     ✓ Compiled in 73ms
+[01:39:56.257] Server  LOG     ✓ Compiled in 156ms
+[01:39:56.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:56.942] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:40:05.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:05.178] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <li> li 
+
+  ...
+    <SidebarProvider>
+      <TooltipProvider delayDuration={0}>
+        <TooltipProvider data-slot="tooltip-pr..." delayDuration={0}>
+          <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={0} ...>
+            <div data-slot="sidebar-wr..." style={{...}} className="group/side...">
+              <AppSidebar>
+              <Header>
+                <header className="flex h-16 ...">
+                  <SidebarTrigger>
+                  <Separator>
+                  <Breadcrumb>
+                    <nav aria-label="breadcrumb" data-slot="breadcrumb">
+                      <BreadcrumbList>
+                        <ol data-slot="breadcrumb..." className="text-muted...">
+                          <BreadcrumbItem>
+                          <BreadcrumbItem>
+>                           <li data-slot="breadcrumb-item" className="inline-flex items-center gap-1.5">
+                              <BreadcrumbSeparator>
+>                               <li
+>                                 data-slot="breadcrumb-separator"
+>                                 role="presentation"
+>                                 aria-hidden="true"
+>                                 className={"[&>svg]:size-3.5"}
+>                               >
+                              ...
+              ...
+
+[01:40:05.178] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. li <li>
+[01:40:05.178] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[01:40:07.051] Server  ERROR   ⨯ Error: The default export is not a React Component in "/calendar/page"
+[01:40:07.231] Server  ERROR   ⨯ Error: The default export is not a React Component in "/calendar/page"
+[01:40:07.883] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/calendar/page"
+[01:40:11.753] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:11.938] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <li> li 
+
+  ...
+    <SidebarProvider>
+      <TooltipProvider delayDuration={0}>
+        <TooltipProvider data-slot="tooltip-pr..." delayDuration={0}>
+          <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={0} ...>
+            <div data-slot="sidebar-wr..." style={{...}} className="group/side...">
+              <AppSidebar>
+              <Header>
+                <header className="flex h-16 ...">
+                  <SidebarTrigger>
+                  <Separator>
+                  <Breadcrumb>
+                    <nav aria-label="breadcrumb" data-slot="breadcrumb">
+                      <BreadcrumbList>
+                        <ol data-slot="breadcrumb..." className="text-muted...">
+                          <BreadcrumbItem>
+                          <BreadcrumbItem>
+>                           <li data-slot="breadcrumb-item" className="inline-flex items-center gap-1.5">
+                              <BreadcrumbSeparator>
+>                               <li
+>                                 data-slot="breadcrumb-separator"
+>                                 role="presentation"
+>                                 aria-hidden="true"
+>                                 className={"[&>svg]:size-3.5"}
+>                               >
+                              ...
+              ...
+
+[01:40:11.938] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. li <li>
+[01:40:11.938] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[01:40:20.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:21.048] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:40:56.930] Server  LOG     ✓ Compiled in 36ms
+[01:41:03.686] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:03.864] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <li> li 
+
+  ...
+    <SidebarProvider>
+      <TooltipProvider delayDuration={0}>
+        <TooltipProvider data-slot="tooltip-pr..." delayDuration={0}>
+          <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={0} ...>
+            <div data-slot="sidebar-wr..." style={{...}} className="group/side...">
+              <AppSidebar>
+              <Header>
+                <header className="flex h-16 ...">
+                  <SidebarTrigger>
+                  <Separator>
+                  <Breadcrumb>
+                    <nav aria-label="breadcrumb" data-slot="breadcrumb">
+                      <BreadcrumbList>
+                        <ol data-slot="breadcrumb..." className="text-muted...">
+                          <BreadcrumbItem>
+                          <BreadcrumbItem>
+>                           <li data-slot="breadcrumb-item" className="inline-flex items-center gap-1.5">
+                              <BreadcrumbSeparator>
+>                               <li
+>                                 data-slot="breadcrumb-separator"
+>                                 role="presentation"
+>                                 aria-hidden="true"
+>                                 className={"[&>svg]:size-3.5"}
+>                               >
+                              ...
+              ...
+
+[01:41:03.864] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. li <li>
+[01:41:03.864] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[01:41:06.202] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:06.344] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:42:23.638] Server  LOG     ✓ Compiled in 36ms
+[01:42:29.394] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:42:29.578] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <li> li 
+
+  ...
+    <TooltipProvider delayDuration={0}>
+      <TooltipProvider data-slot="tooltip-pr..." delayDuration={0}>
+        <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={0} ...>
+          <div data-slot="sidebar-wr..." style={{...}} className="group/side...">
+            <SidebarInset>
+              <main data-slot="sidebar-inset" className="bg-backgro...">
+                <AppSidebar>
+                <Header>
+                  <header className="flex h-16 ...">
+                    <SidebarTrigger>
+                    <Separator>
+                    <Breadcrumb>
+                      <nav aria-label="breadcrumb" data-slot="breadcrumb">
+                        <BreadcrumbList>
+                          <ol data-slot="breadcrumb..." className="text-muted...">
+                            <BreadcrumbItem>
+                            <BreadcrumbItem>
+>                             <li data-slot="breadcrumb-item" className="inline-flex items-center gap-1.5">
+                                <BreadcrumbSeparator>
+>                                 <li
+>                                   data-slot="breadcrumb-separator"
+>                                   role="presentation"
+>                                   aria-hidden="true"
+>                                   className={"[&>svg]:size-3.5"}
+>                                 >
+                                ...
+                ...
+
+[01:42:29.578] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. li <li>
+[01:42:29.578] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[01:42:30.999] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:42:31.172] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:43:37.073] Server  LOG     ✓ Compiled in 46ms
+[01:43:40.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:43:40.403] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:45:18.611] Server  LOG     ✓ Compiled in 42ms
+[01:45:22.064] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:45:22.228] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:45:34.978] Server  LOG     ✓ Compiled in 37ms
+[01:51:56.351] Server  LOG     ✓ Compiled in 109ms
+[01:51:56.602] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:51:57.304] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:51:57.769] Server  LOG     ✓ Compiled in 40ms
+[01:52:00.645] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:00.774] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:52:02.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:02.869] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:52:56.370] Server  LOG     ✓ Compiled in 47ms
+[01:52:56.582] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:57.298] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:52:58.093] Server  LOG     ✓ Compiled in 29ms
+[01:53:00.568] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:00.710] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:57:29.151] Server  LOG     ✓ Compiled in 37ms
+[02:00:27.510] Server  LOG     ✓ Compiled in 44ms
+[02:01:14.477] Server  LOG     ✓ Compiled in 53ms
+[02:02:05.398] Server  LOG     ✓ Compiled in 38ms
+[02:02:33.037] Server  LOG     ✓ Compiled in 38ms
+[02:02:45.199] Server  LOG     ✓ Compiled in 40ms
+[02:31:18.496] Server  LOG     ✓ Compiled in 197ms
+[02:31:19.076] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:31:20.022] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:33:41.121] Server  LOG     ✓ Compiled in 45ms
+[02:34:46.923] Server  LOG     ✓ Compiled in 64ms
+[02:34:47.143] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:34:48.023] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:35:40.064] Server  LOG     ✓ Compiled in 85ms
+[02:35:40.287] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:35:40.553] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:36:33.647] Server  LOG     ✓ Compiled in 67ms
+[02:36:33.870] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:36:35.020] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:37:22.876] Server  LOG     ✓ Compiled in 41ms
+[02:37:30.956] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:37:31.119] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:37:46.817] Server  LOG     ✓ Compiled in 78ms
+[02:37:46.999] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:37:47.666] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:38:34.567] Server  LOG     ✓ Compiled in 42ms
+[02:40:32.007] Server  LOG     ✓ Compiled in 101ms
+[02:40:32.305] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:40:33.027] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:41:49.102] Server  LOG     ✓ Compiled in 65ms
+[02:42:31.233] Server  LOG     ✓ Compiled in 42ms
+[02:42:45.602] Server  LOG     ✓ Compiled in 33ms
+[02:43:39.666] Server  LOG     ✓ Compiled in 38ms
+[02:57:11.103] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:57:11.412] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:02:34.838] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:35.079] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <li> li 
+
+  ...
+    <TooltipProvider delayDuration={0}>
+      <TooltipProvider data-slot="tooltip-pr..." delayDuration={0}>
+        <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={0} ...>
+          <div data-slot="sidebar-wr..." style={{...}} className="group/side...">
+            <AppSidebar>
+            <SidebarInset>
+              <main data-slot="sidebar-inset" className="bg-backgro...">
+                <Header>
+                  <header className="flex h-16 ...">
+                    <SidebarTrigger>
+                    <Separator>
+                    <Breadcrumb>
+                      <nav aria-label="breadcrumb" data-slot="breadcrumb">
+                        <BreadcrumbList>
+                          <ol data-slot="breadcrumb..." className="text-muted...">
+                            <BreadcrumbItem>
+                            <BreadcrumbItem>
+>                             <li data-slot="breadcrumb-item" className="inline-flex items-center gap-1.5">
+                                <BreadcrumbSeparator>
+>                                 <li
+>                                   data-slot="breadcrumb-separator"
+>                                   role="presentation"
+>                                   aria-hidden="true"
+>                                   className={"[&>svg]:size-3.5"}
+>                                 >
+                                ...
+                ...
+
+[03:02:35.079] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. li <li>
+[03:02:35.079] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[03:02:48.062] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:48.202] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:02:51.611] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:02:51.827] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:02:51.941] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/drivers/page"
+[03:02:56.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:57.001] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:02:58.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:58.364] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <li> li 
+
+  ...
+    <TooltipProvider delayDuration={0}>
+      <TooltipProvider data-slot="tooltip-pr..." delayDuration={0}>
+        <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={0} ...>
+          <div data-slot="sidebar-wr..." style={{...}} className="group/side...">
+            <AppSidebar>
+            <SidebarInset>
+              <main data-slot="sidebar-inset" className="bg-backgro...">
+                <Header>
+                  <header className="flex h-16 ...">
+                    <SidebarTrigger>
+                    <Separator>
+                    <Breadcrumb>
+                      <nav aria-label="breadcrumb" data-slot="breadcrumb">
+                        <BreadcrumbList>
+                          <ol data-slot="breadcrumb..." className="text-muted...">
+                            <BreadcrumbItem>
+                            <BreadcrumbItem>
+>                             <li data-slot="breadcrumb-item" className="inline-flex items-center gap-1.5">
+                                <BreadcrumbSeparator>
+>                                 <li
+>                                   data-slot="breadcrumb-separator"
+>                                   role="presentation"
+>                                   aria-hidden="true"
+>                                   className={"[&>svg]:size-3.5"}
+>                                 >
+                                ...
+                ...
+
+[03:02:58.365] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. li <li>
+[03:02:58.365] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[03:03:01.390] Server  ERROR   ⨯ Error: The default export is not a React Component in "/calendar/page"
+[03:03:01.550] Server  ERROR   ⨯ Error: The default export is not a React Component in "/calendar/page"
+[03:03:01.664] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/calendar/page"
+[03:03:04.653] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:03:04.785] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <li> li 
+
+  ...
+    <TooltipProvider delayDuration={0}>
+      <TooltipProvider data-slot="tooltip-pr..." delayDuration={0}>
+        <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={0} ...>
+          <div data-slot="sidebar-wr..." style={{...}} className="group/side...">
+            <AppSidebar>
+            <SidebarInset>
+              <main data-slot="sidebar-inset" className="bg-backgro...">
+                <Header>
+                  <header className="flex h-16 ...">
+                    <SidebarTrigger>
+                    <Separator>
+                    <Breadcrumb>
+                      <nav aria-label="breadcrumb" data-slot="breadcrumb">
+                        <BreadcrumbList>
+                          <ol data-slot="breadcrumb..." className="text-muted...">
+                            <BreadcrumbItem>
+                            <BreadcrumbItem>
+>                             <li data-slot="breadcrumb-item" className="inline-flex items-center gap-1.5">
+                                <BreadcrumbSeparator>
+>                                 <li
+>                                   data-slot="breadcrumb-separator"
+>                                   role="presentation"
+>                                   aria-hidden="true"
+>                                   className={"[&>svg]:size-3.5"}
+>                                 >
+                                ...
+                ...
+
+[03:03:04.785] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. li <li>
+[03:03:04.785] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[03:03:08.056] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:03:08.201] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:22:21.299] Server  LOG     ✓ Compiled in 84ms
+[03:22:42.661] Server  LOG     ✓ Compiled in 77ms
+[03:23:04.551] Server  LOG     ✓ Compiled in 45ms
+[03:23:27.423] Server  LOG     ✓ Compiled in 54ms
+[03:23:57.175] Server  LOG     ✓ Compiled in 79ms
+[03:24:19.708] Server  LOG     ✓ Compiled in 56ms
+[03:24:47.377] Server  LOG     ✓ Compiled in 270ms
+[03:24:48.235] Browser ERROR   ./GitHub/playground/vroom/src/lib/constants.ts:71:7
+Parsing ecmascript source code failed
+  69 |   Argentine: '🇦🇷',
+  70 |   Brazilian: '🇧🇷',
+> 71 |   New Zealander: '🇳🇿',
+     |       ^^^^^^^^^
+  72 | }
+
+Unexpected token `Zealander`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./GitHub/playground/vroom/src/lib/constants.ts [Client Component Browser]
+    ./GitHub/playground/vroom/src/components/cards/next-race-card.tsx [Client Component Browser]
+    ./GitHub/playground/vroom/src/app/page.tsx [Client Component Browser]
+    ./GitHub/playground/vroom/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./GitHub/playground/vroom/src/lib/constants.ts [Client Component SSR]
+    ./GitHub/playground/vroom/src/components/cards/next-race-card.tsx [Client Component SSR]
+    ./GitHub/playground/vroom/src/app/page.tsx [Client Component SSR]
+    ./GitHub/playground/vroom/src/app/page.tsx [Server Component]
+[03:25:05.330] Server  LOG     ✓ Compiled in 35ms
+[03:25:06.235] Browser ERROR   ./GitHub/playground/vroom/src/lib/constants.ts:71:7
+Parsing ecmascript source code failed
+  69 |   Argentine: '🇦🇷',
+  70 |   Brazilian: '🇧🇷',
+> 71 |   New Zealander: '🇳🇿',
+     |       ^^^^^^^^^
+  72 | }
+
+Unexpected token `Zealander`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./GitHub/playground/vroom/src/lib/constants.ts [Client Component Browser]
+    ./GitHub/playground/vroom/src/components/cards/next-race-card.tsx [Client Component Browser]
+    ./GitHub/playground/vroom/src/app/page.tsx [Client Component Browser]
+    ./GitHub/playground/vroom/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./GitHub/playground/vroom/src/lib/constants.ts [Client Component SSR]
+    ./GitHub/playground/vroom/src/components/cards/next-race-card.tsx [Client Component SSR]
+    ./GitHub/playground/vroom/src/app/page.tsx [Client Component SSR]
+    ./GitHub/playground/vroom/src/app/page.tsx [Server Component]
+[03:25:49.342] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:25:49.514] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:25:49.713] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:25:49.881] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:25:50.028] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/drivers/page"
+[03:25:52.211] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:26:39.884] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:26:40.059] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <li> li 
+
+  ...
+    <TooltipProvider delayDuration={0}>
+      <TooltipProvider data-slot="tooltip-pr..." delayDuration={0}>
+        <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={0} ...>
+          <div data-slot="sidebar-wr..." style={{...}} className="group/side...">
+            <AppSidebar>
+            <SidebarInset>
+              <main data-slot="sidebar-inset" className="bg-backgro...">
+                <Header>
+                  <header className="flex h-16 ...">
+                    <SidebarTrigger>
+                    <Separator>
+                    <Breadcrumb>
+                      <nav aria-label="breadcrumb" data-slot="breadcrumb">
+                        <BreadcrumbList>
+                          <ol data-slot="breadcrumb..." className="text-muted...">
+                            <BreadcrumbItem>
+                            <BreadcrumbItem>
+>                             <li data-slot="breadcrumb-item" className="inline-flex items-center gap-1.5">
+                                <BreadcrumbSeparator>
+>                                 <li
+>                                   data-slot="breadcrumb-separator"
+>                                   role="presentation"
+>                                   aria-hidden="true"
+>                                   className={"[&>svg]:size-3.5"}
+>                                 >
+                                ...
+                            ...
+                ...
+
+[03:26:40.059] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. li <li>
+[03:26:40.059] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[03:26:43.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:27:14.251] Server  ERROR   ⨯ Error: The default export is not a React Component in "/teams/page"
+[03:27:14.446] Server  ERROR   ⨯ Error: The default export is not a React Component in "/teams/page"
+[03:27:14.646] Server  ERROR   ⨯ Error: The default export is not a React Component in "/teams/page"
+[03:27:14.813] Server  ERROR   ⨯ Error: The default export is not a React Component in "/teams/page"
+[03:27:14.933] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/teams/page"
+[03:27:17.174] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:28:22.681] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:28:22.891] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:28:23.085] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:28:23.248] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:28:23.361] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/drivers/page"
+[03:28:25.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:28:29.668] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:28:29.863] Server  ERROR   ⨯ Error: The default export is not a React Component in "/drivers/page"
+[03:28:29.957] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/drivers/page"
