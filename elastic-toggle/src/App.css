@@ -3,4 +3,14 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
+  background-color: #F0EAD6;
+  background-image: radial-gradient(circle, #c9c4b5 1px, transparent 1px);
+  background-size: 24px 24px;
+  transition: background-color 0.5s ease, background-image 0.5s ease;
+}
+
+.app.dark {
+  background-color: #1a1a1f;
+  background-image: radial-gradient(circle, #2a2a30 1.5px, transparent 1.5px);
 }
